@@ -14,7 +14,7 @@ func main() {
 		log.Fatal(err)
 	}
 	v := decimal.NewFromFloat(val).Round(5)
-	fmt.Println(v) // 2.3
+	fmt.Println(v) // -0.2
 
 	val, err = calculator.Calculate("(2.5-1.35)*2.0")
 	if err != nil {
